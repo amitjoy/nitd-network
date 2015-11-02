@@ -1,0 +1,286 @@
+
+/* BROWSE MUSIC */
+div.music_browse_item {
+	border: 1px solid #CCCCCC; 
+	padding: 10px; 
+	margin-right: 10px;
+}
+
+div.music_browse_date {
+	font-size: 7pt; 
+	color: #777777;
+}
+
+
+/* USER MUSIC LIST */
+
+ul.seMusicHeader
+{
+  height: 25px;
+  
+  margin: 0px;
+  padding: 0px;
+  
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: none;
+}
+
+ul.seMusicHeader table
+{
+	font-weight: bold;
+	background-image: url(../images/header.gif);
+	background-repeat: repeat-x;
+	color: #333333;
+}
+
+ul.userMusicList
+{
+  margin: 0px;
+	border: 1px solid #CCCCCC;
+	border-bottom: none;
+}
+
+ul.userMusicList,
+ul.seMusicHeader
+{
+  width: 100%;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.userMusicList li
+{
+	background: #FFFFFF;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+ul.seMusicHeader li,
+ul.userMusicList li
+{
+  padding: 0px;
+	vertical-align: middle;
+	text-align:left;
+}
+
+table.seMusicRowInnerTable
+{
+  width: 100%;
+}
+
+table.seMusicRowInnerTable td
+{
+  padding: 5px;
+}
+
+table.seMusicRowInnerTable td.seMusicMove
+{
+  width: 18px;
+  padding: 3px;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 3px;
+}
+
+table.seMusicRowInnerTable td.seMusicDeleteCheckbox
+{
+  width: 18px;
+  padding: 3px;
+  padding-top: 5px;
+}
+
+table.seMusicRowInnerTable td.seMusicRowButton
+{
+  width: 18px;
+  padding: 3px;
+  padding-top: 3px;
+}
+
+table.seMusicRowInnerTable td.seMusicRowTitle
+{
+  
+}
+
+table.seMusicRowInnerTable td.seMusicRowFilesize
+{
+  width: 50px;
+}
+
+table.seMusicRowInnerTable td.seMusicRowActions
+{
+  width: 40px;
+}
+
+img.seMusicMoveHandle
+{
+  cursor: move;
+}
+
+
+/* ???? */
+div#musicedit {
+	margin:0 auto;
+	width:500px;
+	border:1px solid #000;
+}
+div.musiceditheader {
+	border-bottom:1px solid #000;
+}
+div.column1 {
+	float:left;
+	width:30px;
+}
+div.column2 {
+	margin-left:10px;
+	float:left;
+	width:300px;
+	text-align:center;
+}
+div.column3 {
+	width:50px;
+	float:left;
+}
+div.column4 {
+	width:50px;
+	float:left;
+	text-align:center;
+}
+div.column5 {
+	width:50px;
+	float:right;
+}
+div.musicfooter {
+	clear:both;
+}
+
+table.music_edit_table {
+	width:100%;
+	border: 1px solid #CCCCCC;
+	border-bottom: none;
+}
+td.music_header {
+	padding: 4px 5px 5px 6px;
+	border: none;
+	font-weight: bold;
+	background-image: url(../images/header.gif);
+	background-repeat: repeat-x;
+	color: #333333;
+}
+td.music_list {
+	background: #FFFFFF;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 5px;
+	vertical-align: middle;
+	text-align:left;
+}
+td.music_list_track {
+	background: #FFFFFF;
+	border-top: 1px solid #DDDDDD;
+	padding: 5px;
+	vertical-align: middle;
+	text-align:center;
+}
+td#music_title {
+	text-align:left;
+}
+td#music_track {
+	text-align:center;
+}
+td#music_order {
+	text-align:center;
+}
+td#music_options {
+	text-align:left;
+}
+div.music_button {
+	float:left;
+}
+div.music_title {
+	margin-left:10px;
+	margin-top:1px;
+	float:left;
+}
+
+#status
+{
+	background-color:		#ffffff;
+	padding:				10px 15px;
+	width:					430px;
+	border: 1px solid #CCCCCC;
+}
+
+#status .progress
+{
+	background:				white url(../images/music_progress.gif) no-repeat;
+	background-position:	+50% 0;
+	margin-right:			0.5em;
+}
+
+#status .progress-text
+{
+	font-size:				0.9em;
+	font-weight:			bold;
+}
+
+#list
+{
+	list-style:				none;
+	width:					420px;
+	margin:					0;
+	padding:0;
+}
+
+#list li.file
+{
+	border-bottom:			1px solid #eee;
+	background:				url(../images/music_file.png) no-repeat 4px 4px;
+}
+#list li.file.file-uploading
+{
+	background-image:		url(../images/music_uploading.png);
+	background-color:		#D9DDE9;
+}
+#list li.file.file-success
+{
+	background-image:		url(../images/music_success.png);
+}
+#list li.file.file-failed
+{
+	background-image:		url(../images/music_failed.png);
+}
+
+#list li.file .file-name
+{
+	font-size:				1.2em;
+	margin-left:	     	44px;
+	display:				block;
+	clear:					left;
+	line-height:			40px;
+	height:					40px;
+	font-weight:			bold;
+}
+#list li.file .file-size
+{
+	font-size:				0.9em;
+	line-height:			18px;
+	float:					right;
+	margin-top:				2px;
+	margin-right:			6px;
+}
+#list li.file .file-info
+{
+	display:				block;
+	margin-left:	  10px;
+	font-size:				0.9em;
+	line-height:			20px;
+	clear
+}
+#list li.file .file-remove
+{
+	clear:					right;
+	float:					right;
+	line-height:			18px;
+	margin-right:			6px;
+}

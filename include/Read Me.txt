@@ -1,0 +1,13 @@
+------------------------------------
+
+This Plugin is Privided By SaLvaToR
+
+http://www.socialengineforum.com
+
+------------------------------------
+
+If you've spent weeks scratching your head trying to work out how to send Social engine email notifications via SMTP then this is the mod for you. 
+
+We developed it out of frustration after finding an ad for something similar on the Social engine site but then not being able to develop it.
+
+You only need to mod a few files and then you can decide to route your site emails through any SMTP server.e.g. Googleapps.

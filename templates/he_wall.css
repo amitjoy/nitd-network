@@ -1,0 +1,735 @@
+/*
+@author Ermek
+@copyright Hire-Experts LLC
+@version Wall 3.1
+*/
+
+.wall_box
+{
+    border-top:1px solid #e0e0e0;
+    padding:5px 10px;
+}
+
+.wall_container 
+{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.he_wall_page_container 
+{
+    width: 100%;
+    padding: 0;
+}
+
+.comment_count .page_button
+{
+    display: block;
+    float: left;
+    padding-right: 25px;
+}
+
+.comment_count .page_info
+{
+    float: right;
+    margin-right: 10px;
+}
+
+.wall_action {
+    padding-bottom: 12px;
+    padding-left: 60px;
+    padding-top: 7px;
+    border-top: 1px solid #e0e0e0;
+    position: relative;
+    min-height: 50px;
+    background-color: #FFFFFF;
+}
+
+.he_wall_action_page {
+    padding-left: 110px;
+    width: auto;
+}
+
+.wall_action .owner_photo {
+    position: absolute;
+    left: 0;
+}
+
+.wall_action .photo {
+    width: 50px;
+    height: 50px;
+    border: 0px;
+}
+
+.wall_action a.hide_action,
+.wall_action a.remove_action {
+    font-weight: bold;
+    display:block;
+    padding:2px 6px;
+    color: #333333;
+    visibility: hidden;
+}
+
+.wall_action a.hide_action:hover,
+.wall_action a.remove_action:hover {
+    border:1px solid #CCCCCC;
+    background-color:#FFFFFF;
+    background-image:url(../images/menu_user.gif);
+    background-repeat:repeat-x;
+    padding:1px 5px;
+    color: #333333;
+    text-decoration: none;
+    visibility: visible;
+}
+
+.wall_action img.recentaction_media
+{
+    border-style: none;
+    float: none;
+}
+
+.wall_action .photo_cont,
+.portal_whatsnew .photo_cont
+{
+    float: left;
+    border: 1px solid #CCCCCC;
+    margin: 2px;
+}
+
+.wall_action .photo_cont a
+{
+    display: block;
+}
+
+/*** Comments ***/
+
+.wall_action .comment_photo_block
+{
+    float: left;
+    width: 40px;
+}
+
+.wall_action .comment_photo
+{
+    width: 32px;
+    height: 32px;
+    border: 0px;
+}
+
+.wall_action .comment_box
+{
+    padding-top: 10px;
+    background-image:url(../images/he_wall_comment_box.png);
+    background-position:20px 5px;
+    background-repeat:no-repeat
+}
+
+.wall_action .comment_body
+{
+    vertical-align: top;
+    padding-left: 40px;
+}
+
+.wall_action .comment, 
+.wall_action .comment_add,
+.wall_action .like_box
+{
+    background-color:#F0F0F0;
+    padding:5px 0 4px 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.wall_action .comment_text_input
+{
+    width: 98%;
+    height: 20px;
+    min-height: 20px;
+    line-height: 20px;
+    color: #777777;
+    border: 1px solid #BDC7D8;
+    font-size: 11px;
+}
+
+.wall_action .active .comment_text_input, 
+.wall_post_action .active .post_action_input
+{
+    color: #2F2F2F;
+    background-color: #FFFEEF;
+    height: 40px;
+}
+
+.wall_action .active textarea.loading,
+.wall_post_action .active textarea.loading
+{
+    background-color: #EFEAE0;
+}
+
+.wall_action .comment_author
+{
+    font-weight: bold;
+}
+
+.wall_action .comment_actual_text
+{
+    display: inline;
+}
+
+.wall_action .comment_actions
+{
+    margin-top: 4px;
+    margin-bottom: 2px;
+    padding-right: 5px;
+}
+
+.wall_action .date_time
+{
+    font-size: 11px;
+    color: #777777;
+}
+
+.wall_action .comment_add .comment_actions,
+.wall_action .comment_add .comment_photo_block
+{
+    display: none;
+}
+
+.wall_action .active .comment_actions,
+.wall_action .active .comment_photo_block
+{
+    display: block;
+}
+
+.wall_action .comment_add .comment_body
+{
+    padding-left: 0px;
+}
+
+.wall_action .active .comment_body
+{
+    padding-left: 40px;
+}
+
+.wall_action .wall_add_comment_btn
+{
+    margin-right: 5px;
+}
+
+.wall_action .like_content
+{
+    padding: 1px 0 0 24px;
+    background-image: url("../images/he_wall_like.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.wall_action .comment_count
+{
+    padding: 1px 0 0 24px;
+    background-image: url("../images/he_wall_comment.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.wall_action .action_options
+{
+    margin-top: 5px;
+    width: 100%; 
+}
+
+.he_wall_page_container .wall_action .action_options{
+    margin-bottom: 8px;
+}
+
+.recentaction_div_media img.recentaction_media{
+    max-width:700px;
+    width:auto;
+}
+.he_wall_page_container .recentaction_div_media
+{
+    padding-left:5px;
+}
+.wall_action .hide_action_block
+{
+    float: right; 
+    display: block;
+    zoom: 1;   
+}
+
+.wall_action .media_container
+{
+    float: left;
+    width: 80%;
+    font-size:12px;
+    overflow: hidden;
+}
+
+.hide_action_div, .remove_action_div
+{
+    min-height: 25px;
+    background-color: #FFFEEF;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hide_action_div .button,
+.remove_action_div .button
+{
+    margin-left:10px;
+    margin-right:10px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.hide_loading, .wall_show_more_loading
+{
+    background-image: url(../images/he_wall_loading.gif);
+    background-position: right 1px;
+    background-repeat: no-repeat;
+}
+
+.default_tab .hide_loading
+{
+    background-position: right 7px;
+}
+
+.tab_content .hide_loading
+{
+    background-position: right 2px;
+}
+
+.wall_show_more
+{
+    background-color:#F0F0F0;
+    border:1px solid #e0e0e0;
+    border-bottom:3px solid #e0e0e0;
+    height:22px;
+    margin-top:10px;
+    padding:6px 43px 0 15px;
+}
+
+.wall_show_more a
+{
+    font-weight: bold;
+}
+
+.wall_show_more .no_more_info
+{
+}
+
+.wall_show_more_loading
+{
+    background-color: #FFFEEF;
+}
+
+.wall_action .wall_action_options, .wall_action .wall_delete_comment
+{
+    padding-right: 25px;
+    display: inline;
+}
+
+.display_none
+{
+    display: none;
+}
+
+.wall_post_action
+{
+    background-color:#F0F0F0;
+    border:1px solid #e0e0e0;
+    border-top: 3px solid #e0e0e0;
+    margin: 0px 7px;
+    margin-bottom:15px;
+    padding:10px 23px;
+}
+
+.wall_post_action .input_div
+{
+    margin-bottom: 4px;
+}
+
+.wall_post_action .btn_div
+{
+	float:right;
+	width: 150px;
+}
+
+.wall_post_action .post_action_input
+{
+    margin:auto;
+    width:100%;
+    border:1px solid #BDC7D8;
+    color:#777777;
+    font-size:13px;
+    height:20px;
+    line-height:20px;
+    min-height:25px;
+}
+
+.wall_post_action .button
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wall_post_action .wall_post_tabs
+{
+    float: left;
+    padding-right: 25px;
+}
+
+.wall_post_action .wall_tab_title
+{
+    float:left;
+    color: #777777;
+    font-weight:bold;
+    margin-right:5px;
+    margin-left: 4px;
+    padding-top:4px;
+}
+
+.wall_post_action .wall_tab_icon:hover
+{
+    border: 1px solid #BDC7D8;
+    background-color:#FFFFFF;
+    background-image:url(../images/menu_user.gif);
+    background-repeat:repeat-x;
+}
+
+.wall_post_action .wall_tab_icon
+{
+    display: block;
+    float: left;
+    width: 20px;
+    padding: 2px;
+    padding-top: 3px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid transparent;
+    margin-right: 1px;
+    position: relative;
+    text-decoration: none;
+}
+
+.wall_post_action .wall_tooltip
+{
+    color:#FFFFFF;
+    height:18px;
+    padding: 2px;
+    padding-bottom:0px;
+    text-align:center;
+    min-width:40px;
+    background-color: #2F2F2F;
+}
+
+.wall_post_action .wall_tooltip_cont
+{
+    padding-bottom: 5px;
+    min-width: 40px;
+    background: transparent url(../images/he_wall_tooltip.png) no-repeat scroll 8px 20px;
+    position: absolute;
+    left:-1px;
+    top:-28px;
+}
+
+.wall_post_action .upload_photo_tab,
+.wall_post_action .add_music_tab
+{
+    text-align: center;
+}
+
+.wall_post_action .upload_photo_menu, 
+.wall_post_action .add_link_menu,  
+.wall_post_action .add_music_menu,
+.wall_post_action .add_video_menu
+{
+    background-color:#DFDFDF;
+    background-image:url(../images/he_wall_add_photo.gif);
+    background-position:4px 4px;
+    background-repeat:no-repeat;
+    border:1px solid #CFCFCF;
+    font-weight:bold;
+    margin-bottom:7px;
+    margin-left:3px;
+    margin-top:8px;
+    padding:4px 5px 2px 0px;
+    text-align:left;
+}
+.wall_post_action .upload_photo_menu, 
+.wall_post_action .add_link_menu,  
+.wall_post_action .add_music_menu,
+.wall_post_action .add_video_menu span.tab_title
+{
+}
+
+.wall_post_action .add_link_menu 
+{
+    background-image:url(../images/he_wall_add_link.png);
+}
+
+.wall_post_action .add_music_menu
+{
+    background-image:url(../images/icons/he_wall_music_icon.png);
+}
+
+.wall_post_action .add_video_menu
+{
+    background-image:url(../images/icons/he_wall_video_icon.gif);
+}
+
+.wall_post_action .tab_title
+{
+    float: left;
+	display: block;
+    padding-left: 25px;
+	width: 100px;
+}
+
+.wall_post_action .close_tab
+{
+    border:1px solid #DFDFDF;
+    float:right;
+    margin-top:-2px;
+    padding:2px;
+}
+
+.wall_post_action .close_tab:hover
+{
+    border: 1px solid #BDC7D8;
+    background-color:#DFDFDF;
+    background-image:url(../images/menu_user.gif);
+    background-repeat:repeat-x;
+}
+
+.wall_post_action .add_link_body
+{
+    text-align: center;
+}
+
+.wall_post_action .share_link_input
+{
+    width: 200px;
+}
+
+.wall_music_container
+{
+    padding: 5px;
+    padding-left: 0px;
+}
+
+.wall_return_link
+{
+	display: block;
+	float: right;
+}
+
+.wall_action .photo_cont a
+{
+    display: block;
+}
+
+.wall_post_action .action_privacy_btn
+{
+	float: right;
+	width: 36px;
+	padding-bottom: 1px;
+	z-index: 1;
+}
+
+.wall_post_action .action_privacy_btn:hover
+{
+	border-color: #999;
+}
+
+
+.wall_post_action .action_privacy_btn img
+{
+	margin-left: 1px;
+}
+
+.wall_post_action .btn_div .button
+{
+    float: right;
+    margin-left: 10px; 
+}
+
+.wall_post_action .wall_action_privacy
+{
+	background-color:#EEEEEE;
+	border:1px solid #999;
+	left:0px;
+	overflow:visible;
+	position:absolute;
+	top:24px;
+	width:140px;
+	z-index: 1;
+}
+
+.wall_post_action .wall_action_privacy .privacy_option
+{
+	cursor:pointer;
+	min-width:110px;
+	padding:2px 2px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.wall_post_action .wall_action_privacy .border
+{
+    border-top:1px dotted #4F4F4F;
+}
+
+.wall_post_action .wall_action_privacy .active
+{
+	background-image:url(../images/he_wall_active_privacy.png);
+	background-position:2px 55%;
+	background-repeat:no-repeat;
+	font-weight: bold;
+}
+
+.wall_post_action .wall_action_privacy div:hover
+{
+	background-color: #999;
+	color: #FFFFFF;
+}
+
+.wall_post_action div.privacy_block
+{
+	position:relative;
+    float: right;
+	z-index: 1;
+	width: 43px;
+}
+
+.wall_post_action .add_video_body
+{
+    padding-left: 10px;
+}
+
+.wall_post_action .add_video_body .video_provider
+{
+/*    width: 100%;*/
+}
+
+.wall_post_action .add_video_body .youtube_video
+{
+	background-image: url("../images/he_wall_youtube_icon.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.wall_post_action .add_video_body .vimeo_video
+{
+	background-image: url("../images/he_wall_vimeo_icon.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.wall_post_action .add_video_body .video_url_div
+{
+    width: 250px;
+    margin-top: 5px;
+	text-align: left;
+}
+
+.wall_post_action .add_video_body .video_provider_div
+{
+    width: 135px;
+}
+
+.wall_post_action .add_video_body .video_url
+{
+    width: 240px;
+}
+
+.wall_action .video_thumb
+{
+	margin-right: 7px;
+}
+
+.wall_action .video_title,
+.portal_whatsnew .video_title
+{
+	font-weight: bold;
+}
+
+.wall_action .video_thumb,
+.portal_whatsnew .video_thumb
+{
+	position: relative;
+}
+
+.wall_action .video_length,
+.portal_whatsnew .video_length
+{
+	background-color:#000000;
+	color:#FFFFFF;
+	display:inline-block;
+	font-size:11px;
+	margin:3px;
+	opacity:0.7;
+	filter: alpha(opacity=70);
+	padding:2px 5px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.wall_action .show_more_text
+{
+    margin-left: 7px;
+    font-weight: bold;
+}
+
+.portal_whatsnew .show_more_text
+{
+    margin-left: 7px;
+    font-weight: bold;
+}
+
+
+/* Admin Panel */
+
+.code_preview
+{
+    position:relative;
+    margin:24px auto;
+    padding:12px 6px 18px 6px;
+    width:670px;
+    border:1px dotted #90B623;
+    text-align:center;
+    background:#fefff2;
+    font-size:18px;
+}
+
+.code_preview h2
+{
+    position:absolute;
+    top:-29px;
+    left:-1px;
+    padding: 0 4px;
+    border:1px solid #90B623;
+    border-bottom:none;
+    background:#fefff2;
+}
+
+.code_preview_old
+{
+	border-color: #FF7F9C;
+	background-color: #FFF0EF;
+	text-align: left;
+	color: #3F3F3F;
+}
+
+.code_preview_old p
+{
+	margin: 0in; 
+	font-family: Calibri;
+	font-size: 11pt;
+}
+
+.tab_contents
+{
+	width: 100%;
+}

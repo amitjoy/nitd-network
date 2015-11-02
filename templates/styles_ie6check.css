@@ -1,0 +1,37 @@
+/* $Id: styles_ie6check.css 1 2010-04-17 09:36:11Z SocialEngineAddOns $ */
+#message_ie6check{
+	 width:100%;
+	 position:absolute;
+	 background:#f0f0cc;
+	 padding:5px 0;
+	 float:left;
+	 left:0;
+	 right:0;
+	 top:0;
+	 text-align:left;
+	 font-size:11px;
+	 color:#646464;
+	 border-bottom:1px solid #b2b26e;
+}
+#message_ie6check a{color:#aa1428;}
+#message_ie6check a:hover{color:#ff0022;text-decoration:none;}
+#message_ie6check #left{
+	 float:left;
+	 width:92%;
+	 padding-left:5px;
+}
+#message_ie6check #right{
+	 float:right;
+	 padding-right:3px;
+}
+.icons{ margin:2px 0 3px 15px;}
+.icons img{ margin-left:10px;}
+.#message_ie6check img{ vertical-align:middle;margin-right:5px;}
+
+div.ie6check_close {
+position: absolute;
+	top: 6px;
+	right: 25px;
+	color: #AA1428;
+	cursor: pointer;
+}

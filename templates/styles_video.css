@@ -1,0 +1,151 @@
+
+/* $Id: styles_video.css 85 2009-03-10 00:47:01Z szerrade $ */
+
+
+
+div.video_search {
+	padding: 10px; 
+	border: 1px solid #BBBBBB; 
+	background: #EEEEEE; 
+	margin-bottom: 10px; 
+}
+div.video_box {
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	padding: 0px 5px 5px 5px;
+}
+div.video_row {
+	border-top: 1px solid #EAEAEA; 
+	padding: 10px 10px 0px 5px;
+	margin-top: 10px;
+}
+div.video_row_title {
+	overflow: hidden; 
+	font-weight: bold; 
+	margin-top: 3px;
+}
+div.video_row_info {
+	margin-top: 1px; 
+	font-size: 7pt; 
+	color: #777777;
+}
+div.video_row_nowplaying {
+	padding: 4px; 
+}
+div.video_row_nowplaying2 {
+	padding: 3px; 
+	background: #DDDDDD; 
+	border: 1px solid #CCCCCC
+}
+div.video_photo {
+	background-image: url(../images/video_placeholder.gif); 
+	background-repeat: no-repeat;
+	border: 1px solid #DDDDDD;
+}
+div.video_title {
+	padding-top: 3px; 
+	font-weight: bold; 
+	font-size: 10pt;
+}
+div.video_options {
+	margin-top: 10px; 
+	border-top: 1px solid #DDDDDD; 
+	padding-top: 5px;
+}
+
+.videoTab {
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #DDDDDD;
+	background: #F5F5F5;
+}
+
+div.switch_video_mode {
+        color: #336699;
+}
+
+
+#videoTabFrame {
+	margin-left:10px;
+}
+
+
+.videoInfo {
+	margin-top:5px;
+}
+
+.videoInfo table#tab {
+}
+
+.videoInfo td {
+	padding:5px;
+	font-size:1.2em;
+}
+
+.tabs .tab3 input {
+	padding:3px;
+	font-size:8pt;
+}
+
+.videoHeader {
+	background-color:#000000;
+	border-bottom:1px solid #999999;
+}
+
+.videoHeader .inner {
+	padding:3px;
+	color:#ffffff;
+}
+
+.videoHeader h1 {
+	font-size:1.2em;
+	margin:0px;
+}
+
+.videoHeader h2 {
+	font-size:1.0em;
+	font-weight:normal;
+	margin:0px;
+	padding-bottom:3px;
+}
+
+
+#videoFlashError {
+	font-weight:bold;
+	color:#cb3434;
+}
+#videoFlashSuccess {
+	font-weight:bold;
+	color:#329519;
+}
+#videoFlashInfo {
+	color:#3038c2;
+}
+
+.commentHeader p {
+	padding:3px;
+	border-top:1px solid #c0c0c0;
+	background-color:#f9f9f9;
+}
+
+.commentHeader .text {
+	padding:3px;
+}
+
+
+.commentItem {
+	margin-bottom:3px;
+	padding-bottom:3px;
+}
+
+.forumCommentSubmit {
+	margin-bottom:-1px;
+	height:40px;
+}
+
+.video_log {
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	padding: 6px 8px 6px 6px;
+}

@@ -1,0 +1,133 @@
+/* $Id: styles_document.css 1 2010-02-02 09:36:11Z SocialEngineAddOns $ */
+.clr{ clear:both;}
+.fleft{ float:left;}
+.fright{ float:right;}
+.width-full{ width:100%;} 
+input.button{font-family:arial, verdana, serif;font-size:8pt;padding:3px;*padding:1px;color:#333333;font-weight:bold;background: #EEEEEE;vertical-align:middle;border-top:1px solid #CCCCCC;border-left:1px solid #CCCCCC;border-bottom:1px solid #777777;border-right:1px solid #777777;}
+.document_browse_item{float:left;clear:both;padding:5px; border:#cccccc solid 1px; width:660px;margin:5px 0;
+}
+td.bro-doc_leftside {
+	padding-top: 5px;
+	vertical-align: top;
+}
+td.bro-doc_rightside {
+	padding-left: 10px;
+	padding-top: 5px;
+	vertical-align: top;
+}
+.document_view_left{
+	padding:0 10px 0 0;
+	vertical-align:top;
+}
+.document_view_right{
+	padding:5px; 
+	vertical-align:top;
+	background:#F2F2F2;
+	border:#bbbbbb 1px solid;
+}
+.leftside_list{
+	padding: 5px 8px 5px 8px; border: 1px solid #DDDDDD; background: #FFFFFF;
+}
+.leftside_sublist{margin-left:31px;font-weight:normal;}
+.leftside_listbox {
+	margin-top:10px;padding:5px;background:#F2F2F2;border:1px solid #BBBBBB;margin:10px 0px 10px 0px;font-weight:bold;
+}
+.rightside_list{
+	padding: 5px 8px 5px 8px; border: 1px solid #DDDDDD; background: #F2F2F2;font-weight:bold;
+}
+.rightside_listbox {
+	padding:5px;background:#F2F2F2;border:1px solid #BBBBBB;margin:0 0px 10px 0px;font-weight:bold;
+}
+
+.gry-txt, a.gry-txt{ color:#888888;}
+.doc_img{ vertical-align:middle;margin-right:2px;}
+div.btn {
+	text-align: left;
+	padding: 7px 8px 7px 6px;
+	font-weight: bold;
+	float:left;
+	margin-right:5px;
+}
+.cclearn_img{margin-right:15px;margin-bottom:15px; }
+.profile_inner{ border-bottom:1px dotted #CCCCCC;padding:5px 0 10px 0;font-weight:bold;float:left;clear:both;width:100%;}
+.profile_inner .profile_txt{padding-bottom:5px;font-size:13px;}
+.profile_inner_more{padding:5px 0 0 0;font-weight:bold;float:left;clear:both;width:100%;text-align:right;}
+.paging_bg{background:#F2F2F2;border:1px solid #BBBBBB;padding:5px 0;}
+.doc-img{ /*border:1px solid #999999;*/width:25px;}
+.doc_block_des{ padding:3px 0 0 5px;width:165px;}
+.doc_header {
+	padding: 4px 5px 5px 6px;
+	border: 1px solid #DDDDDD;
+	font-weight: bold;
+	background:#F2F2F2;
+	background-repeat: repeat-x;
+	color: #333333;
+	font-size:13px;
+}
+td.doc_profile {
+	background:#F2F2F2;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	padding: 5px 7px 5px 7px;
+	margin-bottom: 12px;
+}
+td.doc_profile_photo {
+	vertical-align: middle; 
+	text-align: center; 
+	padding: 5px;
+	background: #F2F2F2;
+	height: 150px;
+}
+td.doc_profile_photo a{ margin-top:3px;}
+.document_des{clear:both;padding-top:5px;}
+.document_listing{ padding:5px;background:#f5f5f5;margin:5px;border:1px solid #CCCCCC;width:700px;float:left;}
+.document_name{ font-size:13px;font-weight:bold;}
+.title_row{border-bottom:1px solid #CCCCCC;padding:3px;}
+.document_list{border-bottom:1px solid #CCCCCC;padding:5px 3px; line-height:18px;}
+.listing_doc_btn_links{padding:5px 3px;}
+.icon2{vertical-align:middle;margin-right:2px;*margin-right:0px; }
+.tab_head{font-size:13px;font-weight:bold;padding-bottom:10px; }
+.tab_doc_listing{ width:100%;clear:both;float:left;border-top:1px solid #DDDDDD;margin-bottom:10px;padding-top:10px;}
+.side_document_list{padding:5px 0px; line-height:17px;}
+.left_search_box{padding:7px 5px 7px 5px;background:#F2F2F2;border:1px solid #BBBBBB;margin:10px 0px 10px 0px;font-weight:bold;}
+.doc_carousel{width:644px;margin:5px;text-align:center;overflow:hidden;border:1px solid #cccccc;padding:5px;}
+a{outline:none;}
+.document_head_tagcloud{ font-weight:bold;font-size:13px;padding-bottom:5px;}
+.alert-message{font-weight:normal;font-size:11px;color:#FF0000;line-height:13px;}
+.alert-message-box{background:#ffeaae;padding:5px;color:#000000;font-size:12px;border:#f6dc93 solid 1px;}
+.m-btm-1{	margin-bottom:10px;}
+.m-top-1{ margin-top:10px;}
+.m-top-2{ margin-top:20px;}
+.document_search{ padding:5px; width:700px; margin: 5px; text-align: center;background:#F5F5F5 ;border:1px solid #CCCCCC;}
+
+
+/* CSS FOR LIGHTBOX */
+.black_overlay{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.50;
+	filter: alpha(opacity=50);
+}
+.white_content {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	width: 50%;
+	padding: 16px;
+	border:4px solid #525252;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+

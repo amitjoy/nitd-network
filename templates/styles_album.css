@@ -1,0 +1,205 @@
+
+/* $Id: styles_album.css 240 2009-11-14 02:42:57Z phil $ */
+
+
+/* VIEW ALBUMS, EDIT ALBUM */
+div.album {
+	background: #F5F5F5;
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px solid #CCCCCC;
+}
+td.album_left {
+	vertical-align: top;
+}
+td.album_right {
+	vertical-align: top;
+	padding-left: 10px;
+}
+div.album_photo {
+	background: #FFFFFF; 
+	padding: 5px; 
+	border: 1px solid #CCCCCC; 
+	vertical-align: middle; 
+	text-align: center;
+}
+div.album_title {
+	font-size: 13px; 
+	font-weight: bold; 
+	padding: 0px 5px 5px 0px; 
+	border-bottom: 1px solid #CCCCCC; 
+	margin-bottom: 5px;
+}
+div.album_stats {
+	font-size: 9px; 
+	color: #777777;
+	font-weight: normal;
+}
+div.album_options {
+	margin-top: 7px; 
+	border-top: 1px solid #DDDDDD; 
+	padding-top: 7px;
+}
+div.album_options2 {
+	padding: 10px 0px 0px 3px; 
+	border-top: 1px solid #DDDDDD; 
+	margin-top: 10px;
+}
+select.album_moveto {
+	font-size: 7.5pt;
+	border: 1px solid #888888;
+}
+
+
+
+/* BROWSE ALBUMS */
+div.albums_browse_item {
+	border: 1px solid #CCCCCC; 
+	padding: 10px; 
+	margin-right: 10px;
+}
+div.album_browse_date {
+	font-size: 9px; 
+	color: #777777;
+}
+
+/* VIEW MEDIA */
+div.album_media_title {
+	margin-bottom: 2px;
+	font-weight: bold;
+}
+div.album_headline {
+	padding: 4px 0px 5px 6px;
+	border: 1px solid #CCCCCC;
+	border-bottom: none;
+	font-weight: bold;
+	background-image: url(../images/header.gif);
+	background-repeat: repeat-x;
+	color: #333333;
+}
+div.album_media_date {
+	margin-top: 10px; 
+	font-size: 9px; 
+	color: #777777;
+}
+div.album_media {
+	border: 1px solid #DDDDDD; 
+	background: #F2F2F2; 
+	padding: 10px;
+}
+div.album_media_caption {
+	text-align: left; 
+	padding: 0px 5px 0px 5px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+
+
+
+
+/* GENERAL ALBUMS */
+input.album_uploadstatus {
+	border: none; 
+	background: none; 
+	font-weight: bold;
+	font-family: verdana, arial, serif;
+	font-size: 11px;
+	color: #333333;
+	padding: 3px;
+	height: 22px;
+	vertical-align: middle;
+}
+td.album_photo {
+	padding: 7px;
+	height: 120px;
+	width: 120px;
+	vertical-align: middle; 
+	text-align: center; 
+	border: 1px solid #DDDDDD;
+	background: #FFFFFF;
+}
+
+div.album_thumb1 {
+	margin: 5px;
+	width: 150px; 
+	height: 130px; 
+	float: left;
+}
+div.album_thumb2 {
+	padding: 7px; 
+	border: 1px solid #DDDDDD; 
+}
+td.album_comment_author {
+	margin-bottom: 5px;
+	background: #F1F1F1;
+	padding: 5px 7px 5px 7px;
+}
+td.album_comment_body {
+	padding: 5px 7px 0px 7px;
+}
+td.album_comment1 {
+	vertical-align: top; 
+	padding: 0px 5px 5px 0px;
+}
+div.album_comment2 {
+	margin-bottom: 3px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #DDDDDD;
+}
+td.album_list1 {
+	vertical-align: top;
+	text-align: center;
+}
+td.album_list2 {
+	padding: 0px 10px 10px 5px;
+	vertical-align: top;
+}
+td.album_item1 {
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;
+}
+td.album_item2 {
+	padding: 5px 5px 5px 5px;
+	vertical-align: top;
+}
+
+td.album_postcomment {
+	padding: 10px;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	background: #F5F5F5;
+}
+td.album {
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	padding: 5px 7px 5px 7px;
+	margin-bottom: 12px;
+}
+div.album_gutter_title {
+	font-weight: bold;
+	padding-top: 2px;
+}
+div.album_item {
+	float: left; 
+	border: 1px solid #CCCCCC; 
+	padding: 10px; 
+}
+td.album_item_info {
+	vertical-align: top; 
+	padding-left: 10px;
+}
+div.album_item_title {
+	font-weight: bold; 
+	font-size: 13px;
+}
+div.album_item_date {
+	font-size: 9px;
+	color: #777777;
+}
+td.album_gutter_info {
+	padding-left: 5px;
+}
+

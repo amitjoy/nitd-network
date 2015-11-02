@@ -1,0 +1,259 @@
+
+/* $Id: styles_poll.css 246 2009-11-14 03:30:06Z phil $ */
+
+
+/* BROWSE POLLS */
+div.polls_browse_item
+{
+	border: 1px solid #CCCCCC; 
+	padding: 10px; 
+	margin-right: 10px;
+}
+
+div.polls_browse_date
+{
+	font-size: 9px; 
+	color: #777777;
+}
+
+/* POLL RESULTS */
+.pollResultLabel
+{
+  margin-bottom: 3px;
+}
+
+.pollResultBar
+{
+  width: 3px;
+}
+
+.pollResultPercentage
+{
+  color: #666666;
+  margin-left: 3px;
+}
+
+.pollResultVotes
+{
+  font-weight: normal;
+  margin-left: 3px;
+}
+
+
+/* USER POLLS */
+div.poll
+{
+	background: #F5F5F5;
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px solid #CCCCCC;
+}
+
+td.poll_left
+{
+	vertical-align: top;
+}
+
+td.poll_right
+{
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+div.poll_title
+{
+	font-size: 13px; 
+	font-weight: bold; 
+	padding: 0px 5px 5px 0px; 
+	border-bottom: 1px solid #CCCCCC; 
+}
+
+div.poll_stats
+{
+	font-size: 9px; 
+	color: #666666;
+	padding-top: 5px;
+	font-weight: normal;
+}
+
+div.poll_options
+{
+	margin-top: 5px;
+	padding-top: 7px;
+	border-top: 1px solid #CCCCCC;
+}
+
+
+/* VIEW POLL */
+div.poll_bar1, div.poll_bar11 {
+	background: #ffa1a1; 
+	border: 1px solid #555555;
+	height: 15px;  
+	float: left; 
+	margin-right: 3px;
+}
+div.poll_bar2, div.poll_bar12 {
+	background: #a1ffbe; 
+	border: 1px solid #555555;
+	height: 15px;  
+	float: left; 
+	margin-right: 3px;
+}
+div.poll_bar3, div.poll_bar13 {
+	background: #a1d8ff; 
+	border: 1px solid #555555;
+	height: 15px;  
+	float: left; 
+	margin-right: 3px;
+}
+div.poll_bar4, div.poll_bar14 {
+	background: #cba1ff; 
+	border: 1px solid #555555;
+	height: 15px;  
+	float: left; 
+	margin-right: 3px;
+}
+div.poll_bar5, div.poll_bar15 {
+	background: #f9ffa1; 
+	border: 1px solid #555555;
+	height: 15px;  
+	float: left; 
+	margin-right: 3px;
+}
+div.poll_bar6, div.poll_bar16 {
+	background: #ffcba1; 
+	border: 1px solid #555555;
+	height: 15px;  
+	float: left; 
+	margin-right: 3px;
+}
+div.poll_bar7, div.poll_bar17 {
+	background: #d2ffa1; 
+	border: 1px solid #555555;
+	height: 15px;  
+	float: left; 
+	margin-right: 3px;
+}
+div.poll_bar8, div.poll_bar18 {
+	background: #a1c9ff; 
+	border: 1px solid #555555;
+	height: 15px;  
+	float: left; 
+	margin-right: 3px;
+}
+div.poll_bar9, div.poll_bar19 {
+	background: #a1ffe1; 
+	border: 1px solid #555555;
+	height: 15px;  
+	float: left; 
+	margin-right: 3px;
+}
+div.poll_bar10, div.poll_bar20 {
+	background: #ffa1db; 
+	border: 1px solid #555555;
+	height: 15px;  
+	float: left; 
+	margin-right: 3px;
+}
+td.poll_postcomment {
+	padding: 10px;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	background: #F5F5F5;
+}
+td.poll_comment_author {
+	margin-bottom: 5px;
+	background: #F1F1F1;
+	padding: 5px 7px 5px 7px;
+}
+td.poll_comment_body {
+	padding: 5px 7px 0px 7px;
+}
+div.poll_bar {
+	border-bottom: 1px solid #DDDDDD;
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+td.poll_item1 {
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;
+}
+td.poll_item2 {
+	padding: 5px 5px 5px 5px;
+	vertical-align: top;
+}
+td.poll {
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	padding: 5px 7px 5px 7px;
+	margin-bottom: 12px;
+}
+
+/* MY POLLS PAGE AND BROWSE POLLS PAGE */
+td.poll_header, td.poll_header2, td.poll_header3 {
+	padding: 4px 5px 5px 6px;
+	border: 1px solid #DDDDDD;
+	border-bottom: none;
+	font-weight: bold;
+	background-image: url(../images/header.gif);
+	background-repeat: repeat-x;
+	color: #333333;
+}
+td.poll_header2 {
+	border-left: none;
+	border-right: none;
+}
+td.poll_header3 {
+	border-left: none;
+}
+td.poll_list {
+	padding: 7px; 
+	border-bottom: 1px solid #DDDDDD;
+}
+tr.poll_row1 {
+	background: #F5F5F5;
+}
+tr.poll_row2 {
+	background: #FFFFFF;
+}
+div.poll_search {
+	padding: 10px;
+	background: #F5F5F5;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 15px;
+}
+div.poll_browse_title {
+	font-weight: bold; 
+	background: #EEEEEE; 
+	padding: 5px;
+}
+
+/* VIEW POLLS PAGE */
+td.poll_view {
+	padding: 5px; 
+	border: 1px solid #DDDDDD;
+}
+div.poll_view_title {
+	padding: 5px; 
+	background: #EEEEEE; 
+	font-weight: bold;
+}
+div.poll_view_stats {
+	padding: 5px; 
+	color: #888888;
+}
+div.poll_view_desc {
+	padding: 5px;
+}
+div.poll_headline {
+	padding: 4px 5px 5px 6px;
+	border: 1px solid #DDDDDD;
+	border-bottom: none;
+	font-weight: bold;
+	background-image: url(../images/header.gif);
+	background-repeat: repeat-x;
+	color: #333333;
+}

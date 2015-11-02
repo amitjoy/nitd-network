@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>NITD Students' Feedback System</title>
+
+
+<!-- ////////////////////////////////// -->
+<!-- //      Start Stylesheets       // -->
+<!-- ////////////////////////////////// -->
+
+
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+<!--[if IE 8]>
+<link href="css/main_ie8.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<!--[if IE 7]>
+<link href="css/main_ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<!-- ////////////////////////////////// -->
+<!-- //      Start javascript        // -->
+<!-- ////////////////////////////////// -->
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+	<script type="text/javascript">
+	
+<!-- //////////////////////////////////////////////////////////////////////// -->
+<!-- //      Edit the values below for the countdown start and end dates   // -->
+<!-- //////////////////////////////////////////////////////////////////////// -->
+
+    var startYear  = 2010;
+    var startMonth = 6;
+    var startDay   = 1;
+
+    var endYear    = 2010;
+    var endMonth   = 9;
+    var endDay     = 13;
+
+    var startDate = new Date(startYear,startMonth-1,startDay);
+    var startTime = startDate.getTime();
+
+    var endDate = new Date(endYear,endMonth-1,endDay);
+    var endTime = endDate.getTime();  
+    	$(function () {
+    				$('#countdown').countdown({until: endDate,
+    					layout: '{dn} {dl}, {hn} {hl}, {mn} {ml}, {sn} {sl}'});
+    			});
+
+    	var auto_refresh = setInterval(
+    		function()
+    		{
+    			var current = new Date();
+    			var currentTime = current.getTime();
+    			var timeDiff = (endTime - startTime);
+    			var time_elapsed = (currentTime - startTime);
+
+    			var percentDiff = (time_elapsed * 100) / timeDiff;
+    			var percent = percentDiff.toFixed(0);
+    			if (currentTime > endTime) percent=100;
+
+    			$(function(){
+    				$("#progressbar").progressbar({ value: percent });
+    				$("#progressbar_percentage").html('We are about '+percent+"% complete");
+    			});
+    		}
+    	, 1000);
+    	
+    	
+    	$(document).ready(function(){
+	var active_color = '#929191'; // Colour of user provided text
+	var inactive_color = '#929191'; // Colour of default text
+        	  $("input.default-value").css("color", inactive_color);
+        	  var default_values = new Array();
+        	  $("input.default-value").focus(function() {
+        	    if (!default_values[this.id]) {
+        	      default_values[this.id] = this.value;
+        	    }
+        	    if (this.value == default_values[this.id]) {
+        	      this.value = '';
+        	      this.style.color = active_color;
+        	    }
+        	    $(this).blur(function() {
+        	      if (this.value == '') {
+        	        this.style.color = inactive_color;
+        	        this.value = default_values[this.id];
+        	      }
+        	    });
+        	  });
+	
+        	$('#contactform').submit(function(){
+        
+            formvalues = $("#contactform").serialize();
+        
+            $.ajax({
+                type: "POST",
+                url: "mailer.php",
+                data: formvalues,
+                dataType: "json",
+                success: function(data) {
+                    if (data.success==1) {
+                        $("#contactwrapper").slideUp(750,function() {
+                            $('#contactmessage').html('Thanks! We will contact you when the site is open!');
+                            });
+                    }
+                    else{
+                        if (data.invalid_email==1) { $('#contact_email').addClass("form_error"); }
+                            else { $('#contact_email').removeClass("form_error"); }
+                            
+                   }
+            }
+            });
+        	    return false; 
+        	});
+        
+        });
+    	
+    	
+	</script>
+
+
+</head>
+
+<!-- ////////////////////////////////// -->
+<!-- //   OK here is the fun stuff!  // -->
+<!-- ////////////////////////////////// -->
+
+<body>
+
+<!-- WRAPPER - Used to set the main page background image -->
+<div id="wrapper">
+
+<!-- INNER_WRAPPER - used for the main content area width  -->
+<div id="inner_wrapper">
+
+<!-- CONSTRUCTION - just the title at the top - brings in the graphic -->
+<div id="construction"></div>
+
+<!-- LOGO - brings in the lgoo image and places it -->
+<div id="logo"></div>
+
+<!-- COUNTDOWN_CONTAINER - just the individual wrapper for the countdown, message and progress bar -->
+<div id="countdown_container">
+
+<span class="intro_text">Our estimated launch date is Sep 13,2010 which means we have</span>
+
+<!-- COUNTDOWN - this is where the countdown is calculated and displayed -->
+<div id="countdown"></div>
+
+<span class="message1">This is the Feedback System Of NITD Students.</span>
+
+<!-- PROGRESS_CONTAINER - we use this to set a background and position of the dynamic progress bar -->
+<div id="progress_container">
+
+<!-- PROGRESSBAR - this is the div container for the actual bar itself -->
+<div id="progressbar">
+
+<!-- PROGRESS_PERCENTAGE - this is where the percentage text is displayed -->
+<div id="progressbar_percentage"></div> 
+
+</div><!-- END OF PROGRESSBAR -->
+
+</div><!-- END OF PROGRESS_CONTAINER -->
+
+</div><!-- END OF COUNTDOWN_CONTAINER -->
+
+
+<!-- BOTTOM_LOGO - this draws in the small logo at the bottom -->
+
+</div><!-- END OF INNER_WRAPPER -->
+</div><!-- END OF WRAPPER -->
+
+</body>
+
+<!-- //////////////////////////////////////////// -->
+<!-- //   OK that's the end of the fun stuff!  // -->
+<!-- //////////////////////////////////////////// -->
+
+</html>

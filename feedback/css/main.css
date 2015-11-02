@@ -1,0 +1,300 @@
+@charset "UTF-8";
+/* 
+
+New Horizons Under Construction Template - CSS File
+
+Created By: Jonathan Atkinson
+Web: www.theaterwebsiteservices.com
+Copyright - Jonathan Atkinson 2010
+
+
+USE THIS STYLE SHEET EXCLUSIVELY FOR NEW HORIZONS CONSTRUCTION PAGE!!! 
+
+*/
+
+/*@import url('green.css');*/
+@import url('blue.css');
+/*@import url('orange.css');*/
+/*@import url('beige.css');*/
+
+
+
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:30px;
+	color:#FFFFFF;
+	letter-spacing: -1px;
+	font-weight: 400;
+	margin-bottom: 50px;
+	margin-top: 80px;
+	margin-left: 10px;
+}
+
+
+a {
+text-decoration:none;
+color:#323232;
+}
+
+a:hover {
+text-decoration:underline;
+}
+
+
+	
+#inner_wrapper {
+	width: 900px;
+	margin:0 auto;
+	padding-top: 30px;
+	text-align: center;
+	}
+	
+#construction {
+	background-image:url(../img/under_construction.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	min-height: 46px;
+	}
+	
+#logo {
+	background-image:url(../img/logo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	min-height:98px;
+	margin-top: 20px;
+}
+
+#countdown_container {
+	margin:0 auto;
+	width: 90%;
+	text-align: center;
+	}
+	
+	.message1 {
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-style:italic;
+	padding-top: 30px;
+	display: block;
+}
+	
+	#progress_container {
+	margin:0 auto;
+	background-image:url(../img/progress_area.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width: 673px;
+	height:54px;
+	padding-left: 25px;
+	padding-top: 25px;
+	margin-top: 10px;
+}
+	
+.ui-widget { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1.1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1em; }
+.ui-widget-content {  
+		background-image: url(../img/progress_bground.jpg);
+		background-repeat: no-repeat; 
+		color: #ffffff; 
+		}
+
+.ui-progressbar { height:2em; text-align: left; }
+.ui-progressbar .ui-progressbar-value {
+    height: 100%;
+	background-image: url(../img/progressbar.jpg);
+	background-repeat: no-repeat; 
+}
+
+#progressbar_percentage {
+	width: 97%;
+	text-align: center;
+	padding: 6px;
+	float: left;
+	margin-top: 50px;
+}
+
+
+.intro_text {
+	color:#ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size:24px;
+	display: block;
+	padding-top: 30px;
+}
+
+#progressbar {
+	width:100%;
+	text-align: center;
+}
+
+#countdown {
+	width:100%;
+	margin-top: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+
+/* Styling the contact form */
+#contactwrapper {
+	width: 100%;
+	background-image:url(../img/contact_wrapper.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin-top: 10px;
+	height: 97px;
+}
+
+form{margin:0; padding:0;}
+	
+#contact_form {
+	float:left;
+	width:460px;
+	text-align: left;
+	padding-left: 25px;
+	margin-top: 40px;
+}
+	
+.contactform {
+	margin:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#333333;
+	width:300px;
+	text-align: left;
+}
+
+#contactform textarea {
+	padding:5px;
+	width:650px;
+	height:149px;
+	font-size:13px;
+	color:#6a6a6a;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+}
+
+.contactform label {
+	min-width: 100px;
+	float: left;
+	padding: 5px;
+	padding-left: 0px;
+	margin-left: 25px;
+}
+
+.input-submit {
+	background-image: url(../img/submit.png);
+	width: 81px;
+	height: 44px;
+	background-repeat:no-repeat;
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+	line-height:  42px;
+}
+
+.input-textarea {
+	padding:3px;
+	border: 0;
+	width:515px;
+	height:24px;
+	font-size:24px;
+	color:#929191;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+	margin-top: 32px;
+	margin-left: 10px;
+	line-height: 24px;
+}
+
+.small_contact {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#6e6a6a;
+	display: block;
+	margin-bottom: 10px;
+}	
+
+.large_contact {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#464646;
+	text-transform:uppercase;
+	display: block;
+	margin-top: 15px;
+}
+
+.form_error {
+	border:  1px solid #406a27;
+}
+
+#thanks {
+	border:  1px solid #bcbcbc;
+	width: 600px;
+	padding: 0px 10px 10px 10px;
+	background-color:#f2f3ea;
+}
+
+#contactmessage {
+	clear:both;
+	padding-top: 30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color:#ffffff;
+	text-align:center;
+}
+
+#social {
+	margin:0 auto;
+	width:600px;
+	text-align:center;
+	padding-top: 20px;
+}
+
+#social li {
+	margin:0;
+	display:inline;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-right: 10px;
+}
+
+#social li a{
+	margin:0;
+	display:inline;
+	text-decoration: none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #ffffff;
+	padding-right: 10px;
+}
+
+#social li a:hover {
+	color:#ffffff;
+	text-decoration: underline;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-right: 10px;
+}
+
+#bottom_logo {
+	margin:0 auto;
+	padding-top: 20px;
+	background-image:url(../img/bottom_logo.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	width: 100px;
+	height: 50px;
+	}
+#copyright {
+	margin:0 auto;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:10px;
+	padding-top:10px;
+	}

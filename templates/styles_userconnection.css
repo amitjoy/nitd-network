@@ -1,0 +1,258 @@
+/*  styles_userconnection.css 1 2009-07-04 09:36:11Z SocialEngineAddOns */
+.fleft{
+	float:left;
+}
+.userconnection-arrow{
+	float:left;
+	margin-top:25px;
+}
+.userconnection-arrow-rightbox{
+	padding-left:5px;
+	padding-right:5px;
+	width:40px;
+	float:left;
+	padding-top:40px;
+}
+
+.userconnection-user-photo{
+	float:left;
+	padding:5px 3px;
+}
+.clr{
+	clear:both;
+}
+.width-full{
+	width:100%;
+}
+.friend-action-send{
+	margin-top:15px;
+	margin-left:5px;
+}
+.friend-action-add{
+	margin-top:5px;
+	margin-left:5px;
+}
+	
+.user-connection-degree-blue{
+	background:url(../images/icons/user-connection-degree-blue.gif) no-repeat;
+	width:24px;
+	height:24px;
+	line-height:24px;
+	color:#326177;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	margin:5px 0 0 10px; 
+	}
+.user-connection-degree-blue span{
+	font-size:9px;
+	line-height:24px;
+	}	
+.user-connection-degree-green{
+	background:url(../images/icons/user-connection-degree-green.gif) no-repeat;
+	width:24px;
+	height:24px;
+	line-height:24px;
+	color:#52801f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	margin:5px 0 0 10px; 
+	}
+.user-connection-degree-green span{
+	font-size:9px;
+	line-height:24px;
+	}	
+.user-connection-degree-yellow{
+	background:url(../images/icons/user-connection-degree-yellow.gif) no-repeat;
+	width:24px;
+	height:24px;
+	line-height:24px;
+	color:#9a8e2c;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	margin:5px 0 0 10px; 
+	}
+.user-connection-degree-yellow span{
+	font-size:9px;
+	line-height:24px;
+	}	
+.user-connection-degree-orange{
+	background:url(../images/icons/user-connection-degree-orange.gif) no-repeat;
+	width:24px;
+	height:24px;
+	line-height:24px;
+	color:#886425;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	margin:5px 0 0 10px; 
+	}
+.user-connection-degree-orange span{
+	font-size:9px;
+	line-height:24px;
+	}	
+.margin-top-10{
+	margin-top:10px;
+	}
+div.success {
+	color: #00CC33;
+	margin-bottom: 12px;
+	font-weight: bold;
+
+}
+.userconnection-right-block{
+	float:left;
+	border:1px solid #cccccc;
+	width:99.5%;
+	background:#fbfbfb;
+}
+.userconnection-right-block-inner{
+	float:left;
+	padding:5px;
+
+}
+.userconnection-rb-degree{
+	margin-left:0px;
+
+}
+.userconnection-lb-degree{
+	margin-left:0px;
+	margin-top:2px;
+
+}
+.userconnection-user-photo-block{
+	border:1px solid #cccccc;
+	padding:5px;
+	margin:5px 0;
+	float:left;
+	background:#ffffff;
+	height:110px;
+}
+.userconnection-left-block{
+	margin-left:40px;
+	float:left;
+}
+.userconnection-arrow-down{
+	margin:5px 3px 3px 60px;
+	float:left;
+	display:inline;
+	padding:0;
+	width:110px;
+}
+.left-you-button{
+	float:left;
+	margin:20px 0 0 5px;
+}
+.left-degree{
+	margin:5px 0 0 4px;
+}
+.userconnection-user-name{
+	font-size:13px;
+	font-weight:bold;
+
+}
+
+/* tooltip design */
+.ToolTips { 
+	display:block; 
+	position:absolute; 
+	width:144px; 
+}
+.ToolTips .message { 
+	display:block; 
+	background:url(../images/icons/userconnection-tip_body.png) repeat-y; 
+	padding:0px 10px; 
+	margin:0; }
+/* here we do a little switch. If the tooltip is positioned above the element hovered, it changes the classes on the header/footer divs in order to point at the element hovered */
+.ToolTips .dockTopFooter { 
+	background:url(../images/icons/userconnection-dockTopFooter.png) no-repeat bottom; 
+	height:35px; 
+}
+/* this one has more height to display the close button in case sticky tooltips are on */
+.ToolTips .dockTopHeader { 
+	background:url(../images/icons/userconnection-dockTopHeader.png) bottom center no-repeat; 
+	margin:0px; 	height:13px; 
+	font-size:0px; 
+}
+* html .ToolTips .dockBottomFooter { 
+	background:none; 	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/userconnection-dockBottomFooter.png'); }
+* html .ToolTips .dockTopHeader { 
+	background:none; 	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/userconnection-dockTopHeader.png'); }
+* html .ToolTips .dockTopFooter { 
+	background:none; 	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons/userconnection-dockTopFooter.png'); }
+/* this is just a div displaying the loading animated .gif */
+/* beautify the tooltip content */
+.ToolTips .message { 
+	font-size:11px; 
+	font-weight:bold; 
+	text-align:center;
+}
+/*user network box start here*/
+.user-network{
+	background:#ffffff url(../images/icons/userconnections-mynetwork-bg.gif) no-repeat top;
+	width:204px;
+}
+.usernetwork-1stdegree{
+	margin:53px 0 0 5px;
+	width:57px;
+	float:left; 
+	text-align:center;
+	color:#000000;
+	font-size:12px;
+	font-weight:bold;
+	padding:0;
+	display:inline;
+}
+.usernetwork-1stdegree a{
+	color:#000000;
+}
+.usernetwork-2nddegree{
+	margin:53px 0 0 0;
+	width:69px;
+	float:left; 
+	text-align:center;
+	color:#000000;
+	font-size:12px;
+	font-weight:bold;
+	padding:0;
+	display:inline;
+}
+.usernetwork-2nddegree a{
+	color:#000000;
+}
+.usernetwork-3rddegree{
+	margin:53px 0 0 0;
+	width:69px;
+	float:left; 
+	text-align:center;
+	color:#000000;
+	font-size:12px;
+	font-weight:bold;
+	padding:0;
+	display:inline;
+}
+.usernetwork-3rddegree a{
+	color:#000000;
+}
+.usernetwork-contacts-text{
+	margin:3px 0 0 0;
+	float:left; 
+	color:#333333;
+	font-size:11px;
+	font-weight:normal;
+	line-height:15px;
+	width:100%;
+}
+.user-network-bottom-link{
+	clear:both;
+	padding:10px 0 5px 0;
+	color:#777777;
+	font-size:11px;
+	text-align:right;	
+}
+.user-network-bottom-link a{
+	color:#000000;
+}
+/*user network box end here*/

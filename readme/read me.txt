@@ -1,0 +1,38 @@
+So, At a glance NITD NETWORK: (What should we do for uploading NITD Network in our server):
+
+
+1. Just upload the NITD Network files to server
+
+2. For database configuration:
+
+  DB Configuration file
+ 
+3. For documents upload,activate CURL in php.ini..
+    Just search for curl in php.ini
+    then for activating just remove the ';' sign which is placed at first of that line
+
+
+4. For putting NOTICE , administrator section
+
+5. For creating account in NITD Network,just go to the specific link
+
+6. The directory which will contain NITD Network files , must be chmod to 777
+   
+    execute this command : chmod -r 777
+
+    or
+ 
+    This command can also be used : chmod -r 777 directory_path
+
+
+<<<NITD NETWORK is totally HACK-PROOF as I properly removed sql injection flaws,BIND SQL injection flaws,XSS or cross site scripting,CSRF>>>
+
+7.nitdnetwork@nitdgp.ac.in must be created for NITD NEtwork Admin
+
+8.DBMS server settings for security purposes
+
+9.Rename signup page name.
+
+
+use
+xampp-win32-1.7.1-installer.exe

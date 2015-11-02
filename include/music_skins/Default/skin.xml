@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> <skin version="0" xmlns="http://xsml.org/ns/0/"> 
+<width>200</width>
+<height>75</height>
+<name>
+Default Player</name> <author>
+Brett Haddock</author> <email>
+b@webligo.com</email> <homepage>
+http://www.socialengine.net</homepage> <comment>
+Default skin for Xspf Jukebox/SocialEngine Music Player.</comment><objects>
+<background image="images/default.png" />
+<object label="playButton" x="7" y="20" scale=".5" color="FFFFFF" />
+<object label="prevButton" x="158" y="27" scale=".25" color="FFFFFF" />
+<object label="fwdButton" x="177" y="27" scale=".25" color="FFFFFF" />
+<object label="shuffleButton" x="165" y="37" scale=".3" color="FFFFFF" hoverMessage="Shuffle" /> 
+<object label="repeatButton" x="220" y="65" scale=".6" color="222222" hoverMessage="Repeat" />
+<object label="infoButton" x="98" y="80" size="+8" color="333333" text="i" italic="1" bold="1" hoverMessage="Info" />
+<object label="purchaseButton" x="98" y="6" size="+3" text="$" color="333333" font="Trebuchet MS" hoverMessage="Purchase" />
+<object label="downloadButton" x="160" y="88" size="10" color="222222" text="Download" font="Arial" />
+<object label="timeDisplay" x="120" y="10" size="10" color="000000" font="Arial" />
+<object label="trackDisplay" x="25" y="20" width="120" size="12" color="000000" font="Arial" />
+<object label="volumeDisplay" x="160" y="15" scale=".4" height="10" color="FFFFFF" />
+<object label="loadBar" x="30" y="15" width="90" height="3" color="000000" alpha="25" /> <object label="timeBar" x="30" y="15" width="90" height="7" color="000000" alpha="50" />
+<object label="startButton" width="272" height="114" alpha="0" /></objects></skin> 

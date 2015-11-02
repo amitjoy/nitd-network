@@ -1,0 +1,116 @@
+
+/*
+@author Eldar
+@copyright Hire-Experts LLC
+@version Core Admin 1.02
+*/
+
+.he_success, .he_error{
+background:#FFFBCF;
+border:4px solid #EFEAB3;
+padding:8px;
+margin:4px auto 8px auto;
+text-align:center;
+}
+.he_success{
+color:#1D9F2F;
+}
+.he_error{
+color:#8F1F08;
+}
+
+.he_tbl{
+border:1px solid #90B623;
+}
+.he_tbl thead td, .thead{
+background:#C7DF7D;
+color:#606060;
+font-weight:bold;
+padding:5px 5px 5px 8px;
+}
+.he_tbl .bg1, .he_bg1{
+background:#F7FFDF; 
+}
+.he_submit{
+text-align:center;
+}
+.he_item{
+margin-bottom:11px;
+}
+.he_label{
+font-weight:bold;
+}
+.he_tip{
+font-size:10px;
+}
+.he_tab_desc{
+padding-bottom:10px;
+font-size:13px;
+}
+.he_box{
+background:#EFFFBF;
+border:1px solid #90B623;
+padding:10px;
+margin:10px auto;
+}
+.clr{
+clear:both;
+}
+
+.he_tabs a{
+cursor:pointer;
+float:left;
+font-size:13px;
+font-weight:bold;
+padding:5px 20px;
+text-decoration:none;
+}
+.he_tabs .inactive{
+background:#C7DF7D;
+color:#393939;
+}
+.he_tabs .inactive:hover{
+background:#90B623;
+color:#fff;
+}
+.he_tabs .active{
+background:#90B623;
+color:#fff;
+}
+
+.he_body{
+clear:both;
+border:1px solid #90B623;
+padding:10px;
+}
+.he_body .button{
+background:#645951;
+border:none;
+color:#fff;
+font-size:13px;
+font-weight:bold;
+padding:2px 5px;
+}
+
+/* paging */
+.paging {
+    font-size: 11px;
+	height: 20px;
+	margin: 6px 0 15px 0;
+}
+.paging span {
+	float: left;
+	margin-right: 6px;
+	padding: 2px 0;
+}
+.paging a:link, .paging a:visited {
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 6px;
+	padding: 2px 7px;
+	text-align: center;
+}
+.paging a:hover, .paging a.active {
+	background-color: #f0f0f0;
+	color: #333;
+}

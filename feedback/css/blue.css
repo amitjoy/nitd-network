@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* 
+
+New Horizons Under Construction Template - CSS File
+
+Created By: Jonathan Atkinson
+Web: www.theaterwebsiteservices.com
+Copyright - Jonathan Atkinson 2010
+
+
+USE THIS STYLE SHEET EXCLUSIVELY FOR NEW HORIZONS CONSTRUCTION PAGE!!! 
+
+*/
+
+
+body {
+	background-color:#9bc7ef;
+	color:#ffffff;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size:14px;
+	margin:0 auto;
+	background-image: url(../img/blue.jpg);
+	background-repeat: repeat-x;
+}
+
+#wrapper {
+	width: 1020px;
+	margin:0 auto;
+	background-image:url(../img/blue_bground.jpg);
+	min-height: 800px;
+	text-align: center;
+	background-repeat:no-repeat;
+	}

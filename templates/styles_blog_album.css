@@ -1,0 +1,90 @@
+
+/* $Id: styles_blog_album.css 5 2009-01-11 06:01:16Z john $ */
+
+
+.seBlogAlbum
+{
+  font: tahoma, verdana, arial, serif;
+  font-size: 9pt;
+  text-align: left;
+}
+
+.seBlogAlbum .seBlogAlbumHeadline
+{
+  font-size: 12pt;
+}
+
+.seBlogAlbum a
+{
+  color: #606060;
+  text-decoration: none;
+}
+
+.seBlogAlbum input,
+.seBlogAlbum select,
+.seBlogAlbum option
+{
+  font: arial;
+}
+
+.seBlogAlbum a:hover
+{
+  color: #A0A0A0;
+}
+
+.seBlogAlbum .seBlogAlbumUploaderDiv
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+.seBlogAlbum .seBlogAlbumUploaderDiv input
+{
+  width: 200px;
+}
+
+.seBlogAlbum td.form1
+{
+  padding: 10px;
+  vertical-align: middle;
+  
+  width: 35px;
+  line-height: 100%;
+}
+
+.seBlogAlbum #div1
+{
+  padding-top: 0px;
+  margin-top: 0px;
+  width: 300px;
+}
+
+.seBlogAlbum td.form2
+{
+  padding: 5px;
+  vertical-align: middle;
+  
+  width: 120px;
+}
+
+.seBlogAlbum td.form2 input
+{
+  width: 100px;
+}
+
+.seBlogAlbum #fallback_submit
+{
+  height: 25px;
+  vertical-align: middle;
+  margin: 2px;
+  margin-left: 10px;
+}
+
+
+.seBlogAlbum #fallback_status
+{
+  height: 25px;
+  vertical-align: middle;
+  margin: 2px;
+  margin-top: 0px;
+}

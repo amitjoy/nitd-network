@@ -1,0 +1,636 @@
+
+/* $Id: styles_im.css 6 2009-01-11 06:01:29Z john $ */
+
+
+/* Global Classes */
+
+body .seIMHide
+{
+  visibility: hidden;
+  display: none;
+}
+
+
+body .seIMInvisible
+{
+  visibility: hidden;
+}
+
+
+body .seIMShow
+{
+  visibility: visible;
+}
+
+
+body .seIMDragging
+{
+  filter:alpha(opacity=25);
+  -moz-opacity:0.25;
+  opacity:0.25;
+}
+
+
+body .seIMNullMessage
+{
+  color: #000000;
+  font-style: italic;
+}
+
+
+body .seIMSystemErrorMessage
+{
+  color: #E00000;
+}
+
+body .seIMSystemMessage
+{
+  color: #000000;
+  font-style: italic;
+}
+
+
+body .seIMTimestamp
+{
+  color: #000000;
+  margin-right: 5px;
+}
+
+body .seIMTips1Main
+{
+  z-index: 20;
+}
+
+
+
+
+
+
+
+/* General - Tray */
+
+body .seIM_tray_wrapper
+{
+  height: 28px;
+  width: 100%;
+  visibility: hidden;
+  padding: 0px;
+  margin: 0px;
+  border-spacing: 0;
+  border: none;
+}
+
+body .seIM_tray_wrapperCell
+{
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+body .seIM_tray
+{
+  position: fixed;
+  bottom: 0px;
+  height: 28px;
+  padding: 0px;
+  border-spacing: 0;
+  visibility: visible;
+  margin: 0px 10px 0px 10px;
+  border: none;
+}
+
+body .seIM_trayRow
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body .seIM_traySpacer
+{
+  padding: 0;
+  margin: 0;
+  width: auto;
+  border: 1px solid #A0A0A0;
+  background: #F0F0F0;
+  background-image: url(../images/chat_bg.gif);
+  background-repeat: repeat-x;
+  border-right: 1px solid #F0F0F0;
+}
+
+
+
+
+
+
+
+/* General - Tray Item */
+
+body .seIM_trayItem
+{
+  border: 1px solid #A0A0A0;
+  border-right: none;
+  background: #F0F0F0;
+  text-align: center;
+  padding: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+body .seIM_options_trayItem
+{
+  /* Options - Tray Item */
+  width: 25px;
+  border-right: 1px solid #A0A0A0;
+}
+
+body .seIM_trayItem_menuIsActive 
+{
+  border: 1px solid #777777;
+  border-top: 1px solid #DDDDDD;
+  background: #FFFFFF;
+  padding-right: 4px;
+}
+
+body .seIM_options_trayItem.seIM_trayItem_menuIsActive 
+{
+  padding-right: 5px;
+}
+
+body .seIM_trayItem_menuIsRightOfActive
+{
+  border-left: 1px solid #F0F0F0;
+}
+
+body .seIM_trayItem_menuActivator
+{
+  font-size: 11px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+body .seIM_trayItem_menuActivator:hover
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+body .seIM_trayItem_icon
+{
+  padding: 0px;
+  margin: 0px;
+  margin-right: 4px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+body .seIM_trayItem_icon img,
+body .seIM_trayItem_icon image
+{
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 1px;
+  border: 0px;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+}
+
+body .seIM_trayItem_title
+{
+  padding: 0px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+
+
+/* General - Tray Menu */
+body .seIM_trayMenu
+{
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  border-spacing: 0;
+  background-color: #FAFAFA;
+  border: 1px solid #777777;
+  
+  /* Try to override profile css */
+  color: #000000;
+  background-image: none;
+}
+
+body .seIM_trayMenu_header
+{
+  padding: 4px 0px 4px 3px;
+  border-bottom: 1px solid #A0A0A0;
+  background-image: url(../images/chat_im_bg.gif); 
+  background-repeat: repeat-x;
+  
+  /* Try to override profile css */
+  color: #000000;
+  background-color: transparent;
+}
+
+body .seIM_trayMenu_userName {
+  font-weight: bold;
+}
+
+body .seIM_trayMenu_header table
+{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  border-spacing: 0px;
+}
+
+body .seIM_trayMenu_icon
+{
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+  margin-right: 5px;
+}
+
+body .seIM_trayMenu_title
+{
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  font-weight: bold;
+  
+  /* Try to override profile css */
+  color: #000000;
+  background-color: transparent;
+  background-image: none;
+}
+
+body .seIM_trayMenu_buttons
+{
+  padding: 0px 4px 0px 0px;
+  margin: 0px;
+  border: none;
+  text-align: right;
+}
+
+body .seIM_trayItem_menuDeactivator,
+body .seIM_trayItem_menuDestroyer
+{
+  text-decoration: none;
+}
+
+body .seIM_trayItem_menuDeactivator img,
+body .seIM_trayItem_menuDestroyer img
+{
+  border: 0px;
+  height: 16px;
+  width: 16px;
+}
+
+body .seIM_trayMenu_body
+{
+  padding: 0px;
+}
+
+body .seIM_trayMenu_bodyListWrapper
+{
+  overflow: auto;
+}
+
+body .seIM_trayMenu_bodyList
+{
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
+
+.seIM_trayMenu_bodyList div,
+.seIM_trayMenu_bodyList td
+{
+  /* Try to override profile css */
+  color: #000000;
+  background-color: transparent;
+  background-image: none;
+}
+
+body .seIM_trayMenu_input
+{
+  padding: 0px;
+}
+
+
+
+
+
+
+
+/* Friends - Tray Item */
+
+body .seIM_friends_trayItem
+{
+  width: 130px;
+  
+  /* Try to override profile css */
+  color: #000000;
+}
+
+body .seIM_friends_trayItem .seIM_trayItem_menuActivator
+{
+  text-align: left;
+  border: 0px;
+  text-decoration: none;
+  width: 130px;
+  
+  /* Try to override profile css */
+  color: #000000;
+  background-color: transparent;
+  background-image: none;
+}
+
+body .seIM_friends_trayItem .seIM_trayItem_menuActivator img
+{
+  vertical-align: middle;
+  border: 0px;
+  margin: 0px;
+}
+
+body .seIM_friends_title
+{
+  padding-left: 4px;
+  
+  /* Try to override profile css */
+  color: #000000;
+  background-color: transparent;
+  background-image: none;
+}
+
+body .seIM_friends_trayItem_userCount
+{
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* Friends - Tray Menu */
+
+body .seIM_friends_trayMenu
+{
+  width: 180px;
+  border-bottom: none;
+}
+
+body .seIM_friends_trayMenu_bodyListWrapper
+{
+  padding: 4px 0px 4px 0px;
+}
+
+body .seIM_friends_trayMenu_bodyListItem table
+{
+  width: 100%;
+  cursor: pointer;
+  cursor: hand;
+}
+
+body .seIM_friends_trayMenu_friendIcon
+{
+  padding: 4px 7px 4px 7px;
+  margin: 0px;
+  text-align: left;
+  line-height:100%;
+}
+
+body .seIM_friends_trayMenu_friendIcon img
+{
+  height: 25px;
+  width: 25px;
+  margin: 0px;
+}
+
+body .seIM_friends_trayMenu_friendName
+{
+  padding: 0px;
+  padding-top: 2px;
+  margin: 0px;
+  text-align: left;
+  
+  /* Try to override profile css */
+  color: #000000;
+  background-color: transparent;
+  background-image: none;
+}
+
+body .seIM_friends_trayMenu_friendStatus
+{
+  padding: 0px;
+  padding-top: 3px;
+  padding-right: 3px;
+  text-align: right;
+  
+  /* Try to override profile css */
+  color: #000000;
+  background-color: transparent;
+  background-image: none;
+}
+
+body .seIM_friends_trayMenu_friendMessage
+{
+  padding: 0px;
+  padding-bottom: 5px;
+  text-align: left;
+  font-size: 7pt;
+  color: #A0A0A0;
+  overflow: hidden;
+  
+  /* Try to override profile css */
+  background-color: transparent;
+  background-image: none;
+}
+
+body .seIM_friends_trayMenu_bodyList_activatorHover
+{
+  background-color: #EEEEEE;
+  cursor: pointer;
+  cursor: hand;
+  
+  /* Try to override profile css */
+  color: #000000;
+  background-image: none;
+}
+
+
+
+
+
+
+
+/* Options - Tray Item */
+
+body .seIM_options_trayItem .seIM_trayItem_menuActivator
+{
+  text-align: center;
+  border: 0px;
+  text-decoration: none;
+}
+
+body .seIM_options_trayItem .seIM_trayItem_menuActivator img
+{
+  vertical-align: middle;
+  border: 0px;
+  margin: 0px;
+}
+
+
+
+
+
+
+
+/* Options - Tray Menu */
+
+body .seIM_options_trayMenu
+{
+  width: 125px;
+  border-bottom: none;
+}
+
+body .seIM_options_trayMenu_isAlone
+{
+  border-bottom: 1px solid #A0A0A0;
+}
+
+body .seIM_options_trayMenu .seIM_trayMenu_bodyList
+{
+  padding: 3px;
+  text-align: left;
+}
+
+body .seIM_options_trayMenu_bodyListWrapper
+{
+  padding: 4px;
+}
+
+body .seIM_options_title
+{
+  padding-left: 4px;
+  
+  /* Try to override profile css */
+  color: #000000;
+  background-color: transparent;
+  background-image: none;
+}
+
+body .seIM_options_trayMenu_audioButton
+{
+  margin-left: 0px;
+}
+
+
+
+
+
+
+/* Conversation - Tray Item */
+
+body .seIM_conversation_trayItem
+{
+  width: 125px;
+}
+
+body .seIM_trayItem_userStatus img
+{
+  margin-top: 2px;
+  text-align: center;
+  border: 0px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+/* Conversation - Tray Menu */
+
+body .seIM_conversation_trayMenu
+{
+  width: 200px;
+  border-bottom: none;
+}
+
+body .seIM_conversation_trayMenu_bodyListWrapper
+{
+  height: 200px;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+}
+
+body .seIM_conversation_trayMenu_bodyListWrapper2 
+{
+  padding: 4px 4px 4px 6px;
+}
+
+body .seIM_conversation_trayMenu_textInput
+{
+  width: 192px;
+  height: 15px;
+  margin: 0px;
+  border: none;
+  border-top: 1px solid #CCCCCC;
+  font-size: 8pt;
+  font-family: tahoma, verdana, arial, serif;
+  padding-top: 4px;
+  padding-left: 0px;
+  padding-left: 4px;
+}
+
+body .seIM_conversation_trayMenu_message
+{
+  padding-bottom: 1px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+body .seIM_conversation_trayMenu_messageTimestamp
+{
+  margin-right: 5px;
+}
+
+body .seIM_conversation_trayMenu_messageUserName
+{
+  margin-right: 5px;
+  font-weight: bold;
+  display: block;
+  
+  /* Try to override profile css */
+  color: #000000;
+  background-color: transparent;
+  background-image: none;
+}
+
+body .seIM_conversation_trayMenu_messageContent
+{
+  /* Try to override profile css */
+  color: #000000;
+  background-color: transparent;
+  background-image: none;
+}
+
+body .seIM_trayMenu_userStatus img
+{
+  vertical-align: middle;
+}
+
+body .seIM_trayItem_isHover
+{
+  background: #FCFCFC;
+}

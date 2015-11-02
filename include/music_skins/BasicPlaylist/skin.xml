@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<skin version="0" xmlns="http://xsml.org/ns/0/"> 
+<width>200</width>
+<height>170</height>
+<name>
+Original
+</name> 
+<author>
+Lacy Morrow
+</author> 
+<email>
+gojukebox@gmail.com
+</email> 
+<homepage>
+http://www.lacymorrow.com
+</homepage> 
+<comment>
+Basic Playlist skin for Xspf Jukebox.
+</comment>
+<objects>
+<shape shape="rectangle" width="200" height="15" color="EAEAEA" />
+<shape shape="rectangle" width="196" height="138" x="2" y="17" color="EAEAEA" />
+<shape shape="rectangle" width="134" height="134" x="2" y="17" color="EAEAEA" />
+<shape shape="rectangle" width="80" height="12" x="2" y="156" color="EAEAEA" />
+<object label="playButton" x="19" y="3" width="9" height="9" color="000000" />
+<object label="stopButton" x="32" y="3" width="8" height="9" color="000000" />
+<object label="prevButton" x="3" y="3" width="11" height="9" color="000000" />
+<object label="fwdButton" x="46" y="3" width="11" height="9" color="000000" />
+<object label="loadBar" x="62" y="2" width="195" height="11" alpha="80" color="BBBBBB" />
+<object label="timeBar" x="62" y="2" width="20" height="11" alpha="70" color="999999" />
+<object label="trackDisplay" x="64" y="" width="90" size="10" font="Arial" color="333333" align="left" />
+<object label="timeDisplay" x="170" y="" size="10" font="Arial" color="333333" />
+<object label="volumeDisplay" x="54" y="156" width="15" height="11" color="333333" />
+<object label="shuffleButton" x="7" y="156" width="20.7" height="11" color="333333" hoverMessage="Shuffle" /> 
+<object label="repeatButton" x="34" y="157" width="15.7" height="11" color="333333" hoverMessage="Repeat" /> 
+<object label="scrollupButton" x="191" y="22" width="6" height="6" color="888888" /> 
+<object label="scrolldownButton" x="191" y="31" width="6" height="6" color="888888" /> 
+<object label="scrollButton" x="191.2" y="40" width="6" height="120" color="888888" bgAlpha="0" />
+<playlist x="5" y="17" width="185" height="134" size="10" font="Arial" color="333333" />
+<object label="startButton" width="400" height="170" alpha="0" />
+</objects>
+</skin> 

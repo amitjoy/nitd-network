@@ -1,0 +1,165 @@
+/*
+@author Eldar
+@copyright Hire-Experts LLC
+@version Core 1.01
+*/
+
+/* messages */
+.he_message_notice, .he_message_success, .he_message_error {
+	text-align: center;
+	width: 380px;
+	margin: auto;
+	padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.he_message_success {
+	background-color: #E7FFDF;
+	border: 1px solid #9EFF7F;
+}
+.he_message_error {
+	background-color: #FFEFF0;
+	border: 1px solid #FFCFCF;
+}
+.he_message_cont {
+	height: 50px;
+}
+.he_message_cont .t {
+    font-weight: bold;
+    display: block;
+}
+
+/* paging */
+.paging {
+	height: 20px;
+	margin: 6px 0 15px 0;
+}
+.paging span {
+	float: left;
+	margin-right: 6px;
+	padding: 2px 0;
+}
+.paging a:link, .paging a:visited {
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 6px;
+	padding: 2px 7px;
+	text-align: center;
+}
+.paging a:hover, .paging a.active {
+	background-color: #f0f0f0;
+	color: #333;
+}
+
+/* choose contacts */
+.he_contacts {
+    padding-top: 15px;
+}
+#he_contacts_loading {
+    background: #ccc url(../images/he_contacts_loading.gif) no-repeat center center;
+    height: 470px;
+    left: 0;
+    opacity: 0.6;
+    filter: alpha(opacity = 60);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#he_contacts_message {
+    background: #ccc;
+    color: #000;
+    height: 470px;
+    font-size: 12px;
+    font-weight: bold;
+    left: 0;
+    opacity: 0.6;
+    filter: alpha(opacity = 60);
+    line-height: 400px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.he_contacts .contacts, .he_contacts .emails {
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    padding: 6px; 
+    width: 568px;
+}
+.he_contacts .emails {
+    border-top: none;
+    padding: 8px 6px 10px;
+}
+.he_contacts .label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-align: left;
+}
+.he_contacts .btn {
+    margin: 8px 0 0 15px;
+    text-align: left;
+    width: 200px;
+}
+.he_contacts .info {
+    color: #999;
+    font-weight: normal;
+}
+#he_contacts_list {
+    height: 265px;
+    overflow-y: auto;
+}
+.he_contacts .contacts .active,
+.he_contacts .contacts .item:hover {
+    background: url(../images/he_contact_bgs.gif) no-repeat;
+    text-decoration: none;
+}
+.he_contacts .contacts .item {
+    display: block;
+    float: left;
+    height: 64px;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    width: 134px;
+}
+.he_contacts .contacts .active .photo .inner {
+    background: url(../images/he_contacts_checked_i.gif) no-repeat bottom left;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+.he_contacts .contacts .photo {
+    display: block;
+    float: left;
+    margin: 5px 3px 0;
+    height: 50px;
+    width: 50px;
+}
+.he_contacts .contacts .name {
+    display: block;
+    margin-top: 5px;
+    overflow: hidden;
+    width: 77px;
+}
+.he_contacts .more, .he_contacts .more_disabled {
+    background: url(../images/he_contacts_more.png) no-repeat right;
+    cursor: pointer;
+    float: right;
+    padding-right: 20px;
+    height: 16px;
+    text-align: right;
+}
+.he_contacts .more_disabled {
+    background: url(../images/he_contacts_more_disabled.png) no-repeat right;
+    color: #bfbfbf;
+    cursor: auto;
+}
+.he_contacts .emails textarea {
+    border: 1px solid #cfd4e4;
+    height: 40px;
+    font-size: 11px;
+    width: 564px;
+}
+
+/* single classes */
+.clr{
+	clear: both;
+}

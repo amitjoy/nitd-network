@@ -1,0 +1,18 @@
+.tip {
+	color: #fff;
+	width: 220px;
+	z-index: 13000;
+	padding: 1px;
+	border: 1px solid #CCCCCC;
+	text-align: left;
+	background-color: #f3f3f3;
+}
+
+.q_inform td {
+	border: 1px solid #DFDFDF;
+	padding: 2px;
+	background:#FFFFFF;
+}
+.qi_header{
+	padding-left: 3px;
+}

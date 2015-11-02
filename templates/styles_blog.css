@@ -1,0 +1,279 @@
+
+/* $Id: styles_blog.css 67 2009-02-23 22:33:41Z john $ */
+
+
+/* BLOG - GENERAL */
+.seBlogTable
+{
+  margin: 0px;
+  padding: 0px;
+  border-spacing: 0px;
+  /* border: 1px solid #909090; */
+  width: 100%;
+}
+
+.seBlogColumnLeft
+{
+  padding: 0px 10px 0px 0px;
+}
+
+.seBlogColumnRight
+{
+  width: 250px;
+  background: #F2F2F2;
+  border: 1px solid #DDDDDD;
+  border-left: 1px solid #BBBBBB;
+}
+.seBlogColumnRightPadding
+{
+  padding: 10px;
+}
+
+
+/* BLOG - SIDE BAR */
+
+.seBlogLinkList,
+.seBlogArchiveList,
+.seBlogCategoryList
+{
+  margin-top: 0px;
+  margin-left: 0px;
+  list-style: none;
+  padding-left: 15px;
+}
+
+.seBlogLinkList li,
+.seBlogArchiveList li,
+.seBlogCategoryList li
+{
+  padding-left: 0px;
+}
+
+
+
+/* BLOG - ENTRIES */
+
+.seBlogEntry
+{
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+div.seBlogEntry1
+{
+	/* padding: 8px 10px 10px 10px; */
+}
+
+div.seBlogEntry2
+{
+	/* padding: 8px 10px 10px 10px; */
+}
+
+.seBlogEntryTable
+{
+	margin: 8px 10px 10px 10px;
+  width: 630px;
+}
+
+div.seBlogEntryTitle
+{
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+div.seBlogEntryDate, div.seBlogEntryCategory
+{
+	font-size: 7pt;
+	color: #777777;
+}
+
+div.seBlogEntryBody
+{
+	padding-top: 5px;
+  line-height: normal;
+}
+
+div.seBlogEntryBody p
+{
+	padding: 5px;
+	margin: 5px;
+}
+
+.seBlogComments
+{
+  margin-top: 10px;
+}
+
+.seBlogTrackbackList
+{
+  list-style: none;
+  padding-left:10px;
+}
+
+
+
+/* BROWSE BLOGS */
+div.blogs_browse_item
+{
+	border: 1px solid #CCCCCC; 
+	/* padding: 10px; */
+  
+}
+
+div.blogs_browse_item_left
+{
+	margin-right: 5px;
+}
+
+div.blogs_browse_item_right
+{
+	margin-left: 5px;
+}
+
+div.blogs_browse_date
+{
+	font-size: 7pt; 
+	color: #777777;
+}
+
+div.blogs_browse1
+{
+	background: #F2F2F2;
+}
+
+div.blogs_browse2
+{
+	background: #FFFFFF;
+}
+
+
+
+/* BLOG */
+div.blog_search
+{
+	width: 475px;
+	padding: 10px;
+	background: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+table.blog_table
+{
+	border: 1px solid #CCCCCC;
+}
+
+td.blog_header
+{
+	font-weight: bold;
+	background-image: url(../images/header.gif);
+	background-repeat: repeat-x;
+	color: #333333;
+  padding: 5px;
+}
+
+td.blog_entry {
+	background: #FFFFFF;
+	border-top: 1px solid #DDDDDD;
+	padding: 5px;
+	vertical-align: middle;
+}
+td.blog_comment_author {
+	margin-bottom: 5px;
+	background: #F1F1F1;
+	padding: 5px 7px 5px 7px;
+}
+td.blog_comment_body {
+	padding: 5px 7px 0px 7px;
+}
+div.blog_bar {
+	border-bottom: 1px solid #DDDDDD;
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+td.blog_item1 {
+	padding: 5px;
+	text-align: center;
+	vertical-align: top;
+}
+td.blog_item2 {
+	padding: 5px 5px 5px 5px;
+	vertical-align: top;
+}
+td.blog_options {
+	padding: 5px 5px 5px 5px; 
+	font-weight: bold; 
+
+}
+div.blog_settings {
+	padding: 10px;
+	border: 1px dashed #CCCCCC;
+	background: #FFFFFF;
+}
+td.blog_postcomment {
+	padding: 10px;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	background: #F5F5F5;
+}
+td.blog {
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+	padding: 5px 7px 5px 7px;
+	margin-bottom: 12px;
+}
+div.blog_headline {
+	padding: 4px 5px 5px 6px;
+	border: 1px solid #DDDDDD;
+	border-bottom: none;
+	font-weight: bold;
+	background-image: url(../images/header.gif);
+	background-repeat: repeat-x;
+	color: #333333;
+}
+div.blog_archive {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+/* EDIT BLOGS */
+div.blog_list {
+	border: 1px solid #DDDDDD; 
+	border-top: none;
+}
+div.blog_list1 {
+	border-top: 1px solid #DDDDDD; 
+	background: #F2F2F2;
+	padding: 10px;
+}
+div.blog_list2 {
+	border-top: 1px solid #DDDDDD; 
+	background: #FFFFFF;
+	padding: 10px;
+}
+div.blog_subscription {
+	border: 1px solid #CCCCCC; 
+	margin-bottom: 10px; 
+	padding: 10px; 
+	background: #F2F2F2;
+}
+
+/* BLOG ON PROFILE */
+div.profile_blogentry {
+	border-top: 1px solid #DDDDDD;
+	padding: 7px 2px 0px 2px;
+}
+div.profile_blogentry_date {
+	color: #777777;
+	font-size: 7pt;
+}
+div.profile_blogentry_title {
+	font-weight: bold;
+}
+div.profile_blogentry_body {
+	margin: 5px 0px 10px 5px;
+}
